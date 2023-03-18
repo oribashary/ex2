@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+}
+
+aside,
+footer,
+main,
+nav,
+section,
+article,
+header {
+    display: block;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.marged {
+    margin: 40px;
+}
+
+#logo {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+section:nth-of-type(1) {
+    background-color: #F9BDBD;
+    display: flex;
+    align-items: center;
+}
+
+section:nth-of-type(1) img {
+    margin-left: 78px;
+}
+
+section:nth-of-type(4) div {
+    background-color: #F9BDBD;
+    width: 1120px;
+    height: 508px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.exercise-card:nth-of-type(1) {
+    background-color: #FDEDE5;
+}
+
+.exercise-card:nth-of-type(2) {
+    background-color: #EBF1FF;
+}
+
+.exercise-card:nth-of-type(3) {
+    background-color: #EBFFEC;
+}
+
+.exercise-card:nth-of-type(4) {
+    background-color: #FFEBFC;
+}
+
+.exercise-card:nth-of-type(5) {
+    background-color: #FFFEEB;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exercise-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 24px;
+    width: 200px;
+    height: 264px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.exercise-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.exercise-card h4 {
+    margin-top: 10px;
+}
+
+.view-button {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .view-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+footer {
+    text-align: left;
+    background-color: #F2F2F2;
+    padding: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8D8D8D;
+}
+
+footer a:visited {
+    color: #8D8D8D;
+}
+
+#social-networks {
+    display: flex;
+    flex-direction: column;
+}
+
+#social-networks div {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.social-network:first-child {
+    font-size: 1.5em;
+}
+
+.social-network {
+    margin: 5px 0;
+}
+
+.rights {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+
+
+#my-div {
+    position: relative;
+    animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 50px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
